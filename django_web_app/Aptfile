@@ -1,0 +1,6 @@
+libxmlsec1
+libxmlsec1-dev
+swig
+python-m2crypto
+libssl-dev
+python-dev

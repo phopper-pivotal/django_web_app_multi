@@ -1,0 +1,7 @@
+---
+applications:
+- name: django-web-app-multi
+  buildpack: https://github.com/cloudfoundry-incubator/multi-buildpack
+  env:
+    LD_LIBRARY_PATH: /tmp/app/.apt/lib/x86_64-linux-gnu/:/tmp/app/.apt/usr/lib/x86_64-linux-gnu:/tmp/app/.apt/usr/lib/i386-linux-gnu:/tmp/app/.apt/usr/lib
+    SWIG_LIB: /tmp/app/.apt/lib/x86_64-linux-gnu/:/tmp/app/.apt/usr/lib/x86_64-linux-gnu:/tmp/app/.apt/usr/lib/i386-linux-gnu:/tmp/app/.apt/usr/lib:/tmp/app/.apt/usr/share/swig2.0
